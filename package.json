@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "my personal portfolio website",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "version": "lerna version -a",
+    "changed": "lerna changed -a",
+    "test": "lerna run test"
+  },
+  "devDependencies": {
+    "lerna": "^3.21.0"
+  }
+}
