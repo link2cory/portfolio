@@ -1,11 +1,11 @@
 {
-  "name": "portfolio-components",
+  "name": "@portfolio/components",
   "private": true,
   "description": "components for my personal portfolio website",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "start": "start-storybook",
+    "dev": "start-storybook",
     "test": "jest --watchAll",
     "lint": "eslint src/**/*.ts[x]",
     "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx}\""
