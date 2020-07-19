@@ -1,0 +1,40 @@
+{
+  "name": "@portfolio/frontend",
+  "private": true,
+  "description": "Gatsby based frontend for my personal portfolio website",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 0"
+  },
+  "dependencies": {
+    "gatsby": "^2.21.22",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "gatsby-plugin-emotion": "^4.3.10",
+    "tailwindcss": "^1.5.1",
+    "twin.macro": "^1.5.0",
+    "typescript": "^3.9.7",
+    "@types/node": "^14.0.23",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "prettier": "2.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/link2cory/frontend"
+  },
+  "bugs": {
+    "url": "https://github.com/link2cory/frontend/issues"
+  }
+}
