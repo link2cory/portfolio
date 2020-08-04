@@ -5,6 +5,7 @@
   "private": true,
   "workspaces": ["packages/*"],
   "scripts": {
+    "dev": "lerna run develop",
     "bootstrap": "lerna bootstrap",
     "version": "lerna version -a",
     "changed": "lerna changed -a",
