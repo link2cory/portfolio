@@ -9,7 +9,8 @@
     "bootstrap": "lerna bootstrap",
     "version": "lerna version -a",
     "changed": "lerna changed -a",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "pretty": "prettier --write ."
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.8.0",
