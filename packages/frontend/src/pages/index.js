@@ -1,3 +1,11 @@
 import React from "react";
 
-export default () => <div>Hello world!</div>;
+import Header from "../components/Header";
+
+const Index = () => (
+  <div>
+    <Header />
+  </div>
+);
+
+export default Index;
